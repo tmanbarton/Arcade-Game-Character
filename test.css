@@ -1,0 +1,23 @@
+body{
+  background-color: darkgrey;
+}
+h1{             /*rule set*/
+  font-size: 30px;
+  color: turquoise;
+}
+h2{
+  color: red;
+  font-size: 20px;
+}
+.big{
+  font-size: 60px;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.big.uppercase{
+  color: magenta;
+}
+h1 span{    /*all elements inside of an h1 are assigned the color green*/
+  color: green;
+}
